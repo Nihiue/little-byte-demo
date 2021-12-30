@@ -1,0 +1,16 @@
+{
+  "name": "little-byte-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "demo/test-require",
+  "scripts": {
+    "compile": "node demo/compile.js",
+    "demo": "node demo/test-require.js",
+    "benchmark": "node benchmark/benchmark.js js && node benchmark/compile.js && node benchmark/benchmark.js bytecode"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "little-byte": "^0.0.4"
+  }
+}
