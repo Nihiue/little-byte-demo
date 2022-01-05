@@ -11,6 +11,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "little-byte": "^0.0.4"
+    "little-byte": "^0.1.0"
   }
 }
